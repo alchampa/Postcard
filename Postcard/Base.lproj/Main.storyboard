@@ -104,6 +104,15 @@
                                     <rect key="frame" x="11" y="313" width="346" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPZ-s8-aTB">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="167" width="238" height="24"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="5gJ-4d-7XZ"/>
                                 <exclude reference="BEw-FW-XsV"/>
                                 <exclude reference="3Xh-TX-EhA"/>
+                                <exclude reference="ZPZ-s8-aTB"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="5gJ-4d-7XZ"/>
                                 <include reference="BEw-FW-XsV"/>
                                 <include reference="3Xh-TX-EhA"/>
+                                <include reference="ZPZ-s8-aTB"/>
                             </mask>
                         </variation>
                     </view>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="Hkq-in-duO" id="yoZ-GB-RMk"/>
                         <outlet property="mailButton" destination="BEw-FW-XsV" id="gdS-dU-d8G"/>
                         <outlet property="messageLabel" destination="5gJ-4d-7XZ" id="bV3-s5-MPB"/>
+                        <outlet property="nameLabel" destination="ZPZ-s8-aTB" id="pGX-c8-PQj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
